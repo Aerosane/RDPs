@@ -1,0 +1,2 @@
+ExecStart=/sbin/runuser -l USER -c "/usr/bin/vncserver %i -geometry 1280x1024"
+PIDFile=/home/USER/.vnc/%H%i.pid
